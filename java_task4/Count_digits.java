@@ -18,7 +18,11 @@ public class Count_digits {
         }
 
         System.out.println("Number of digits : " + count);
-
 	}
-
 }
+
+/*
+ * Output:
+ * Enter the Number : 546
+   Number of digits : 3
+ */

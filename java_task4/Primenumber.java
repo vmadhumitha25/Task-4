@@ -33,3 +33,10 @@ public class Primenumber {
 	}
 
 }
+
+
+/*
+Output:
+Enter the number :  3
+3 is a prime number
+*/

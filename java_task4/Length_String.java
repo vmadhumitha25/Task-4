@@ -9,9 +9,15 @@ public class Length_String {
 		// String msg = "Guvi Geek";
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter the Message :  ");
-        String msg = scanner.next();
+        String msg = scanner.nextLine();
         System.out.println("Length of Msg is : " + msg.length());
         scanner.close();
 	}
 
 }
+
+/*
+Output:
+Enter the Message :  Guvi Geek
+Length of Msg is : 9
+*/

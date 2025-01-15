@@ -31,3 +31,14 @@ public class Greater_number {
 	}
 
 }
+
+/*
+ * Output: 
+ * Enter the Integer a : 4
+Enter the Integer b : 5
+Enter the Integer c : 6
+Enter the Integer d : 8
+9
+14
+Sum of a and b is Lesser than Sum of c and d
+ */

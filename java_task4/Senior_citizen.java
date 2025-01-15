@@ -11,15 +11,23 @@ public class Senior_citizen {
         System.out.print("Enter the Age : ");
         int age = scanner.nextInt();
 
-        if (age < 25) {
+        if (age < 18) {
             System.out.println("I'm an child");
         }
 
-        else if (age > 25) {
+        else if (age < 30) {
             System.out.println("I'm an Adult");
-        } else {
+        } 
+        else {
             System.out.println("I'm an Senior Citizen");
         }
 	}
 
 }
+
+
+/*
+Output:
+Enter the Age : 65
+I'm an Senior Citizen
+*/

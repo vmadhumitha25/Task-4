@@ -9,17 +9,17 @@ public class Factorial {
 		Scanner scanner = new Scanner(System.in);
         System.out.print("Enter the number for factorial :  ");
         int num = scanner.nextInt();
-        // long factorial = 1;
-        int n, factorial = 1;
-        // while (n <= num) {
-        // factorial = factorial * x;
-        // n++;
-        // }
-        for (int i = 1; i <= num; ++num) {
+        long factorial = 1;
+  
+        for (int i = 1; i <= num; i++) {
             factorial = factorial * i;
         }
         System.out.println("Factorial of " + num + " is " + factorial);
-
 	}
-
 }
+
+/*
+ * Output:
+ * Enter the number for factorial :  5
+   Factorial of 5 is 120
+ */

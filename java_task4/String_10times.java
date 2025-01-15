@@ -9,12 +9,29 @@ public class String_10times {
 		  // String msg = "Welcome to Guvi";
         Scanner obj = new Scanner(System.in);
         System.out.print("Enter the Message : ");
-        String msg = obj.next();
+        String msg = obj.nextLine();
 
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i <= 10; i++) {
             System.out.println(msg);
         }
 
 	}
 
 }
+
+/*
+ * Output:
+ * Enter the Message : Welcome to Guvi
+Welcome to Guvi
+Welcome to Guvi
+Welcome to Guvi
+Welcome to Guvi
+Welcome to Guvi
+Welcome to Guvi
+Welcome to Guvi
+Welcome to Guvi
+Welcome to Guvi
+Welcome to Guvi
+Welcome to Guvi
+ */
+
